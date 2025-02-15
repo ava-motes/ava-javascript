@@ -41,6 +41,32 @@
     // Strings on my own
     let greeting = "My name is " + name;
     console.log(greeting);
+
+    // Function to make square numbers
+    console.log("Using functions");
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+    };
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+
+    // Functions on my own
+    function makeName(firstName, middleName, lastName) {
+      let name = firstName + " " + middleName + " " + lastName;
+      return name;
+    };
+
+    let name01 = makeName("Nathaniel", "Milton", "Motes");
+    console.log(name01);
+
+    let name02 = makeName("Robert", "\"Beto\"", "O\'Rourke");
+    console.log(name02);
+
+    let name03 = makeName("Mazzy", "Joyce", "Zimmerman");
+    console.log(name03);
+
   </script>
 </body>
 </html>
